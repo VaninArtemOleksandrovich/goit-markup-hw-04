@@ -146,7 +146,7 @@ p {
 /* Секція головна */
 .hero {
   background-color: var(--black-background-color);
-  background-image: url("../images/fon.svg"), url(../images/herocard.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herocard.jpg);
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -231,9 +231,10 @@ button {
 
   width: 270px;
   height: 120px;
-  background-color:var(--black-background-color);
-  margin-bottom: 20px;
-}
+  
+    margin-bottom: 20px;}
+      
+
 .direction-list {
   display: flex;
 }
