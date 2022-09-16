@@ -226,15 +226,58 @@ button {
   margin-right: 30px;
 }
 .vectors1{
-  border: 1px solid red;
-  border-radius: 4px;
-
-  width: 270px;
-  height: 120px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
   
     margin-bottom: 20px;}
-      
+            .vectors2 {
+            display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 270px;
+              height: 120px;
+              margin-bottom: 30px;
+              background-color: #f5f4fa;
+              border-radius: 4px;
+            
+              margin-bottom: 20px;
+            }
+                        .vectors3 {
+                        display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          width: 270px;
+                          height: 120px;
+                          margin-bottom: 30px;
+                          background-color: #f5f4fa;
+                          border-radius: 4px;
+                        
+                          margin-bottom: 20px;
+                        }
+                                                .vectors4 {
+                                                display: flex;
+                                                  justify-content: center;
+                                                  align-items: center;
+                                                  width: 270px;
+                                                  height: 120px;
+                                                  margin-bottom: 30px;
+                                                  background-color: #f5f4fa;
+                                                  border-radius: 4px;
+                                                
+                                                  margin-bottom: 20px;
+                                                }
+.vector11{ 
+display: block;
+  width: center;
+  height: center;
 
+}
 .direction-list {
   display: flex;
 }
@@ -296,6 +339,9 @@ button {
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
+}
+.cocialul{
+  display: flex;
 }
 
 /* Footer */
