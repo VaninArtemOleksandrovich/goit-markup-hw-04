@@ -341,7 +341,13 @@ display: block;
   margin-right: 30px;
 }
 .cocialul{
-  display: flex;
+display: flex;
+ background-color:white;
+justify-content:space-between;
+padding-right: 50px;
+padding-bottom: 30px;
+padding-top: 20px;
+  list-style: none;
 }
 
 /* Footer */
