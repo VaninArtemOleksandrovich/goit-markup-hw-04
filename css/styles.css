@@ -365,7 +365,17 @@ button {
   display: flex;
   margin-top: 50px;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+  fill:#afb1b8;}
+    .box-icon:hover,
+        .box-icon:focus{
+          fill: var(--accent-color);
+          border-color: var(--accent-color);
+        }
+                .icon2:hover,
+                .icon2:focus{
+                  fill: var(--accent-color);
+                }
    
 /* Footer */
 .footer {
