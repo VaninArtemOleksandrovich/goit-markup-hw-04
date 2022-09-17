@@ -206,6 +206,7 @@ button {
   text-align: center;
 }
 .adv-title {
+
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -319,8 +320,8 @@ button {
 .team-description {
   background-color: var(--white-text-color);
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .team-position {
   color: var(--secondary-text-color);
@@ -554,4 +555,8 @@ button {
                            .social-link:focus{
                           background-color: var(--accent-color);
                           fill: var(--white-text-color)
+                        }
+                        .lishka{
+                          border: 1px solid #EEEEEE;
+                            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
                         }
