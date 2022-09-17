@@ -355,18 +355,17 @@ button {
   display: flex;
   background-color: white;
   justify-content: space-between;
-  list-style: none;
-}
+  list-style: none;}
 .box-icon {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  display: flex;
+  display:flex;
   margin-top: 50px;
     justify-content: center;
     align-items: center;
-  fill:#afb1b8;}
+  fill: #afb1b8;}
     .box-icon:hover,
         .box-icon:focus{
           fill: var(--accent-color);
@@ -496,6 +495,65 @@ fill: var(--white-text-color)
 .icon{
   fill:var(--secondary-text-color)
 }
-.icon:hover {
+.icon:hover,
+.icon:focus {
   fill: var(--white-text-color)
 }
+.cocialul1{
+  display: flex;
+  list-style:none;
+ margin-bottom: 25px;
+ align-items:inherit;
+
+}
+.fotlist111{
+  display: flex;
+}
+.footlist1{
+  color: var(--white-text-color)
+  width: 206px; ;
+  height: 80px;
+  margin-left: 150px;
+}
+.link12{
+  
+}
+.circ{
+  fill: var(--white-text-color);
+ margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    width: 44px;
+     border-radius: 50%;
+  background-color: rgba(255,255,255,0.1);}
+    .joinup{
+      color: var(--white-text-color);
+      font-size: 16px;
+      line-height:1.15 ;
+      font-weight: 700;
+      margin-left: 70px;
+    }
+    .icon13{
+      fill: var(--white-text-color);
+    }
+        .circ2{fill: var(--white-text-color);
+          margin-left: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 45px;
+          height: 45px;
+          flex-shrink: 0;
+          width: 44px;
+          border-radius: 50%;
+          background-color:var(--accent-color);
+        }
+
+                .circ:hover,
+                .circ:focus {
+                background-color: var(--accent-color);
+                }
