@@ -47,7 +47,7 @@ p {
   margin-bottom: 0;
 }
 
-.link {
+.link{
   text-decoration: none;
 }
 
@@ -146,7 +146,8 @@ p {
 /* Секція головна */
 .hero {
   background-color: var(--black-background-color);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herocard.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/herocard.jpg);
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -225,58 +226,58 @@ button {
 .advantage-item:not(:last-child) {
   margin-right: 30px;
 }
-.vectors1{
+.vectors1 {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: #f5f4fa;
-    border-radius: 4px;
-  
-    margin-bottom: 20px;}
-            .vectors2 {
-            display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 270px;
-              height: 120px;
-              margin-bottom: 30px;
-              background-color: #f5f4fa;
-              border-radius: 4px;
-            
-              margin-bottom: 20px;
-            }
-                        .vectors3 {
-                        display: flex;
-                          justify-content: center;
-                          align-items: center;
-                          width: 270px;
-                          height: 120px;
-                          margin-bottom: 30px;
-                          background-color: #f5f4fa;
-                          border-radius: 4px;
-                        
-                          margin-bottom: 20px;
-                        }
-                                                .vectors4 {
-                                                display: flex;
-                                                  justify-content: center;
-                                                  align-items: center;
-                                                  width: 270px;
-                                                  height: 120px;
-                                                  margin-bottom: 30px;
-                                                  background-color: #f5f4fa;
-                                                  border-radius: 4px;
-                                                
-                                                  margin-bottom: 20px;
-                                                }
-.vector11{ 
-display: block;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+
+  margin-bottom: 20px;
+}
+.vectors2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+
+  margin-bottom: 20px;
+}
+.vectors3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+
+  margin-bottom: 20px;
+}
+.vectors4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+
+  margin-bottom: 20px;
+}
+.vector11 {
+  display: block;
   width: center;
   height: center;
-
 }
 .direction-list {
   display: flex;
@@ -340,34 +341,32 @@ display: block;
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
-.cocialul{
-display: flex;
- background-color:white;
-justify-content:space-between;
-padding-right: 50px;
-padding-bottom: 30px;
-padding-top: 20px;
+.cocialul {
+  display:flex;
+  background-color: white;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  list-style: none;
+  border-radius: 4px;
+}
+.comany-time {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
   list-style: none;
 }
-.comany-time{
-  display: flex;
-    background-color: white;
-    justify-content: space-between;
-    list-style: none;
-
-}
-.box-icon{
+.box-icon {
   width: 170px;
   height: 92px;
-  border:  1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   display: flex;
+  margin-top: 50px;
     justify-content: center;
-    align-items: center;
-   margin-top: 50px;
-}
-
-
+    align-items: center;}
+   
 /* Footer */
 .footer {
   background-color: var(--black-background-color);
@@ -425,9 +424,9 @@ padding-top: 20px;
 .filter-item {
 }
 
-.item-image { 
+.item-image {
   display: block;
-  max-width:358px;
+  max-width: 358px;
 }
 
 .hover-bcg-color:hover,
@@ -443,26 +442,23 @@ padding-top: 20px;
 
 .project-title {
   color: var(--primary-text-color);
-padding-top: 10px;
+  padding-top: 10px;
   padding-left: 20px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.project-time { 
+.project-time {
   width: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
   border: 1px solid #eeeeee;
 }
 .description :nth-child(3n + 1) {
- 
   margin-right: 0px;
   margin-bottom: 0px;
 }
 .description {
-
- 
 }
 .project-list {
   display: flex;
@@ -474,4 +470,22 @@ padding-top: 10px;
   padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
+}
+
+.link1:hover{
+width: 44px;
+height: 44px;
+ display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+background-color:var(--accent-color);
+fill: var(--white-text-color)
+}
+
+.icon{
+  fill:var(--secondary-text-color)
+}
+.icon:hover {
+  fill: var(--white-text-color)
 }
