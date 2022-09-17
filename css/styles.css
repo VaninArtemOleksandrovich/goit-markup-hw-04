@@ -481,24 +481,9 @@ button {
   line-height: 1.88;
 }
 
-.link1:hover{
-width: 44px;
-height: 44px;
- display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-background-color:var(--accent-color);
-fill: var(--white-text-color)
-}
 
-.icon{
-  fill:var(--secondary-text-color)
-}
-.icon:hover,
-.icon:focus {
-  fill: var(--white-text-color)
-}
+
+
 .cocialul1{
   display: flex;
   list-style:none;
@@ -510,14 +495,12 @@ fill: var(--white-text-color)
   display: flex;
 }
 .footlist1{
-  color: var(--white-text-color)
-  width: 206px; ;
+  color: var(--white-text-color);
+  width: 206px; 
   height: 80px;
   margin-left: 150px;
 }
-.link12{
-  
-}
+
 .circ{
   fill: var(--white-text-color);
  margin-left: 20px;
@@ -557,3 +540,18 @@ fill: var(--white-text-color)
                 .circ:focus {
                 background-color: var(--accent-color);
                 }
+            .social-link{
+              width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                fill: #afb1b8;
+
+            }
+                          .social-link:hover,
+                           .social-link:focus{
+                          background-color: var(--accent-color);
+                          fill: var(--white-text-color)
+                        }
