@@ -129,6 +129,8 @@ p {
 .hover-color:hover,
 .hover-color:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+ 
 }
 
 .current {
@@ -205,6 +207,13 @@ button {
   line-height: 1.17;
   text-align: center;
 }
+.mobile{
+  fill: var(--secondary-text-color);
+}
+.mobile:hover,
+.mobile:focus {
+  fill: var(--accent-color);
+}
 .adv-title {
 
   font-size: 14px;
@@ -237,7 +246,7 @@ button {
   background-color: #f5f4fa;
   border-radius: 4px;
 
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .vectors2 {
   display: flex;
@@ -249,7 +258,7 @@ button {
   background-color: #f5f4fa;
   border-radius: 4px;
 
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .vectors3 {
   display: flex;
@@ -257,11 +266,11 @@ button {
   align-items: center;
   width: 270px;
   height: 120px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   background-color: #f5f4fa;
   border-radius: 4px;
 
-  margin-bottom: 20px;
+
 }
 .vectors4 {
   display: flex;
@@ -269,11 +278,11 @@ button {
   align-items: center;
   width: 270px;
   height: 120px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   background-color: #f5f4fa;
   border-radius: 4px;
 
-  margin-bottom: 20px;
+ 
 }
 .vector11 {
   display: block;
@@ -560,3 +569,8 @@ button {
                           border: 1px solid #EEEEEE;
                             box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
                         }
+                                                 .contact-link:hover,
+                                                    .contact-link:focus {
+                                                   color: var(--accent-color);
+                                                   fill: var(--accent-color)
+                                                 }
