@@ -27,7 +27,6 @@ body {
 .container {
   width: 1200px;
   padding: 0px 15px;
-
   margin: 0 auto;
 }
 
@@ -94,7 +93,6 @@ p {
 /* Навігєйшн*/
 .nav-link {
   color: var(--primary-text-color);
-
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -161,13 +159,11 @@ button {
 
 .hero-title {
   color: var(--white-text-color);
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   max-width: 696px;
   margin: 0 auto 30;
   padding-top: 200px;
@@ -243,7 +239,6 @@ button {
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
-
   margin-bottom: 40px;
 }
 .vectors2 {
@@ -255,7 +250,6 @@ button {
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
-
   margin-bottom: 40px;
 }
 .vectors3 {
@@ -441,7 +435,7 @@ button {
 
 .item-image {
   display: block;
-  max-width: 358px;
+  max-width: 360px;
 }
 
 .hover-bcg-color:hover,
