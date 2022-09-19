@@ -525,8 +525,10 @@ button {
 .link12{display: flex;
   justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;}
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
  .circ:hover,
 .circ:focus {
 
@@ -546,11 +548,7 @@ button {
   justify-content: center;
   fill: #afb1b8;
 }
-.social-link:hover,
-.social-link:focus{
-  background-color: var(--accent-color);
-  fill: var(--white-text-color);
-}
+
 
 .lishka {
   border: 1px solid #eeeeee;
