@@ -522,7 +522,12 @@ button {
 }
 .circ:hover,
 .circ:focus {
+fill: gray;
   background-color: var(--accent-color);
+}
+.icon13:hover,
+.icon13:focus {
+
 }
 .social-link {
   width: 44px;
@@ -543,8 +548,8 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact-time:hover,
+.contact-time:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
+  fill: gray;
 }
