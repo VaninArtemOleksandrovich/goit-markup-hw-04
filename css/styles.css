@@ -520,15 +520,21 @@ button {
 .icon13 {
   fill: var(--white-text-color);
 }
-.circ:hover,
+.link12{display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;}
+ .circ:hover,
 .circ:focus {
-fill: gray;
-  background-color: var(--accent-color);
-}
-.icon13:hover,
-.icon13:focus {
 
-}
+  background-color: var(--accent-color);
+}  
+.link12:hover,
+.link12:focus {
+
+  background-color: var(--accent-color);}
+
 .social-link {
   width: 44px;
   height: 44px;
