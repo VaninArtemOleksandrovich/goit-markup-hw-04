@@ -129,7 +129,9 @@ p {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-
+.hover-color{
+  fill: #757575;
+}
 .current {
   color: var(--accent-color);
 }
